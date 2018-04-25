@@ -14,6 +14,8 @@ echo "-----"
 echo "SSL framework created at `cd openssl.framework/; pwd`"
 echo "-----"
 
-tar cvzf ~/libssl.tar.gz -C `cd openssl.framework/; pwd`
+cd `cd openssl.framework/; pwd`
+
+tar cvzf ~/libssl.tar.gz openssl.framework/
 
 cd -
