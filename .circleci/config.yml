@@ -3,6 +3,4 @@ jobs:
    build:
      machine: true
      steps:
-       - checkout
-       - run: echo "hello world"
-       - run: ls
+       - run: cat README.md
