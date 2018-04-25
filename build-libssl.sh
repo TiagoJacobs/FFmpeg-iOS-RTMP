@@ -14,8 +14,8 @@ echo "-----"
 echo "SSL framework created at `cd openssl.framework/; pwd`"
 echo "-----"
 
-cd `cd openssl.framework/; pwd`
+# cd `cd openssl.framework/; pwd`
 
-tar cvzf ~/libssl.tar.gz -C `pwd` openssl.framework/
+tar cvzf ~/libssl.tar.gz -C /Users/distiller/project/work/ssl/ OpenSSL-for-iPhone
 
 cd -
