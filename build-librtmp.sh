@@ -9,4 +9,10 @@ cd work/rtmp/
 
 git clone git@github.com:tdjac0bs/librtmp-iOS.git
 cd librtmp-iOS
+mkdir lib/
 ./build-librtmp.sh
+./create-librtmp-framework.sh
+
+echo "-----"
+echo "RTMP framework created at `cd librtmp.framework/; pwd`"
+echo "-----"
