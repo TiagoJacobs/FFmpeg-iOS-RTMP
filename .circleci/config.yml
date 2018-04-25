@@ -1,0 +1,7 @@
+version: 2
+jobs:
+   build:
+     steps:
+       - checkout
+       - run: echo "hello world"
+       - run: ls
