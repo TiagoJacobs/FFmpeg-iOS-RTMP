@@ -8,6 +8,6 @@ jobs:
 
        - run: sh ./build-libssl.sh
 
-       # - store_artifacts:
-       #   path: ~/teste.tar.gz
-       #   destination: teste.tar.gz
+       - store_artifacts:
+         path: /libssl.tar.gz
+         destination: libssl.tar.gz
