@@ -14,4 +14,6 @@ echo "-----"
 echo "SSL framework created at `cd openssl.framework/; pwd`"
 echo "-----"
 
+tar -cvzf ./teste.tar.gz `cd openssl.framework/; pwd`
+
 cd -

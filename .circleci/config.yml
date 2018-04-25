@@ -6,3 +6,7 @@ jobs:
      steps:
        - checkout
        - run: sh ./build-libssl.sh
+
+      - store_artifacts:
+          path: /Users/distiller/project/work/ssl/OpenSSL-for-iPhone/openssl.framework/teste.tar.gz
+          destination: teste.tar.gz
