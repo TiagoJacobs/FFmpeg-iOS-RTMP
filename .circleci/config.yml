@@ -3,7 +3,6 @@ jobs:
    build:
      macos:
        xcode: "9.0"
-
      steps:
        - checkout
        - run: sh ./build-libssl.sh
