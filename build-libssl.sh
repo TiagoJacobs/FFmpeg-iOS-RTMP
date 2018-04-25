@@ -16,6 +16,6 @@ echo "-----"
 
 cd `cd openssl.framework/; pwd`
 
-tar cvzf ~/libssl.tar.gz openssl.framework/
+tar cvzf ~/libssl.tar.gz -C `pwd` openssl.framework/
 
 cd -
