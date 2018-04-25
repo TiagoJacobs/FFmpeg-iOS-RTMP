@@ -6,4 +6,10 @@ jobs:
      steps:
        - checkout
 
-       - run: sh ./build-librtmp.sh
+       - run: sh ./build-libssl.sh
+
+       - store_artifacts:
+          path: ~/libssl.tar.gz
+          destination: libssl.tar.gz
+
+      - run: sh ./build-librtmp.sh
