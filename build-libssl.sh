@@ -16,6 +16,6 @@ echo "-----"
 
 # cd `cd openssl.framework/; pwd`
 
-tar cvzf ~/libssl.tar.gz -C /Users/distiller/project/work/ssl/ OpenSSL-for-iPhone
+tar cvzf ~/libssl.tar.gz -C /Users/distiller/project/work/ssl/OpenSSL-for-iPhone/ openssl.framework
 
 cd -
