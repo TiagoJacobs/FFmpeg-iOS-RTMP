@@ -6,7 +6,7 @@ jobs:
      steps:
        - checkout
 
-       - run: man lipo
+       - run: sh ./build-libssl.sh
 
        - run: sh ./build-librtmp.sh
 
