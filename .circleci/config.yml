@@ -6,8 +6,6 @@ jobs:
      steps:
        - checkout
 
-       - run: xcodebuild -showsdks
-
        - run: sh ./build-all.sh
 
        - store_artifacts:
