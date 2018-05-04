@@ -1,6 +1,4 @@
 #!/bin/sh
-xcode-select --install
-
 set -e
 
 rm -rf work/rtmp/
@@ -16,3 +14,5 @@ mkdir lib/
 echo "-----"
 echo "RTMP framework created at `cd librtmp.framework/; pwd`"
 echo "-----"
+
+tar cvzf ~/librtmp.tar.gz -C /Users/distiller/project/work/rtmp/librtmp-iOS/ librtmp.framework
