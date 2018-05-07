@@ -16,3 +16,5 @@ cd FFmpeg-iOS-build-script
 echo "-----"
 echo "FFMPEG framework created at `cd FFmpeg.framework/; pwd`"
 echo "-----"
+
+tar cvzf ~/ffmpeg.tar.gz -C /Users/distiller/project/work/ffmpeg/FFmpeg-iOS-build-script/ FFmpeg.framework

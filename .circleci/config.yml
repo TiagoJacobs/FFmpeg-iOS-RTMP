@@ -9,7 +9,7 @@ jobs:
        - run: sh ./build-libssl.sh
 
        - run: sh ./build-librtmp.sh
-       
+
        - run: sh ./build-ffmpeg.sh
 
        - store_artifacts:
@@ -19,3 +19,7 @@ jobs:
        - store_artifacts:
           path: ~/librtmp.tar.gz
           destination: librtmp.tar.gz
+
+       - store_artifacts:
+          path: ~/ffmpeg.tar.gz
+          destination: ffmpeg.tar.gz
