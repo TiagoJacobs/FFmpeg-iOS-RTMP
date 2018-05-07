@@ -12,6 +12,7 @@ cd FFmpeg-iOS-build-script
 ./build-ffmpeg.sh
 ./build-ffmpeg-iOS-framework.sh
 
+
 echo "-----"
 echo "FFMPEG framework created at `cd FFmpeg.framework/; pwd`"
 echo "-----"
