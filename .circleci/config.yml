@@ -9,6 +9,8 @@ jobs:
        - run: sh ./build-libssl.sh
 
        - run: sh ./build-librtmp.sh
+       
+       - run: sh ./build-ffmpeg.sh
 
        - store_artifacts:
           path: ~/libssl.tar.gz
